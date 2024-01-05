@@ -1,10 +1,9 @@
-import React from 'react';
-import Child from './Child';
+import {Child}  from './Child';
 
 const Parent = () => {
   return (
-    <Child/>
-  )
+    <Child color="red" onClick={() => { console.log("clicked") }}>Hello </Child>
+  );
 }
 
-export default Parent
+export default Parent;
